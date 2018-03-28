@@ -1,0 +1,55 @@
+{
+  "name": "Spiny",
+  "health": 300,
+  "armor": 10,
+  "fireRes": 0,
+  "magicRes": 0,
+  "reward": 25,
+  "speed": 0.6,
+  "spawnTime": 90,
+  "traits": {
+    "antiProjectile": true
+  },
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/enemies\/spiny\/spinyleft.png",
+      "frameSpan": [
+        0,
+        7
+      ],
+      "frameWidth": 40,
+      "frameHeight": 38
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/enemies\/spiny\/spinyright.png",
+      "frameSpan": [
+        8,
+        15
+      ],
+      "frameWidth": 40,
+      "frameHeight": 38
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/enemies\/spiny\/spinydown.png",
+      "frameSpan": [
+        16,
+        23
+      ],
+      "frameWidth": 35,
+      "frameHeight": 38
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/enemies\/spiny\/spinyup.png",
+      "frameSpan": [
+        24,
+        31
+      ],
+      "frameWidth": 34,
+      "frameHeight": 38
+    }
+  ]
+}

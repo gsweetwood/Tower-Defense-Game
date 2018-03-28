@@ -1,0 +1,58 @@
+{
+  "name": "Magikoopa",
+  "health": 150,
+  "armor": 5,
+  "fireRes": 0,
+  "magicRes": 80,
+  "reward": 40,
+  "speed": 1,
+  "spawnTime": 90,
+  "traits": {
+    "Koopa": 0,
+    "healRadius": [
+      75, 60, 5
+      ]
+  },
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/enemies\/magikoopa\/magikoopaleft.png",
+      "frameSpan": [
+        0,
+        7
+      ],
+      "frameWidth": 46,
+      "frameHeight": 47
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/enemies\/magikoopa\/magikooparight.png",
+      "frameSpan": [
+        8,
+        15
+      ],
+      "frameWidth": 46,
+      "frameHeight": 47
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/enemies\/magikoopa\/magikoopadown.png",
+      "frameSpan": [
+        16,
+        23
+      ],
+      "frameWidth": 41,
+      "frameHeight": 47
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/enemies\/magikoopa\/magikoopaup.png",
+      "frameSpan": [
+        24,
+        31
+      ],
+      "frameWidth": 40,
+      "frameHeight": 49
+    }
+  ]
+}

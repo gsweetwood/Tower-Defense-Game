@@ -1,0 +1,55 @@
+{
+  "name": "Hammer Bro",
+  "health": 200,
+  "armor": 15,
+  "fireRes": 0,
+  "magicRes": 0,
+  "reward": 15,
+  "speed": 1,
+  "spawnTime": 90,
+  "traits": {
+    "Koopa": 33
+  },
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/enemies\/hammerbro\/hammerbroleft.png",
+      "frameSpan": [
+        0,
+        9
+      ],
+      "frameWidth": 39,
+      "frameHeight": 59
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/enemies\/hammerbro\/hammerbroright.png",
+      "frameSpan": [
+        10,
+        19
+      ],
+      "frameWidth": 39,
+      "frameHeight": 59
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/enemies\/hammerbro\/hammerbrodown.png",
+      "frameSpan": [
+        20,
+        29
+      ],
+      "frameWidth": 37,
+      "frameHeight": 59
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/enemies\/hammerbro\/hammerbroup.png",
+      "frameSpan": [
+        30,
+        39
+      ],
+      "frameWidth": 39,
+      "frameHeight": 60
+    }
+  ]
+}

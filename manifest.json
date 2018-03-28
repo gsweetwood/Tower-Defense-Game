@@ -1,0 +1,41 @@
+{
+  "interface": [
+    "placeholder"
+  ],
+  "interfaceDir": "placeholder",
+  "levels": [
+    "one",
+    "two",
+    "three"
+  ],
+  "levelsDir": "resources\/levels",
+  "enemies": [
+    "koopatroopa",
+    "boo",
+    "flyguy",
+    "hammerbro",
+    "spiny",
+    "bobomb",
+    "goomba",
+    "magikoopa",
+    "bowser"
+  ],
+  "enemiesDir": "resources\/enemies",
+  "towers": [
+    "montymole",
+    "lakitu",
+    "piranha",
+    "trunkle",
+    "elemental",
+    "magitoad",
+    "peachbot"
+  ],
+  "towersDir": "resources\/towers",
+  "characters": [
+    "peach",
+    "toad",
+    "monty",
+    "toadsworth"
+  ],
+  "charactersDir": "resources\/characters"
+}

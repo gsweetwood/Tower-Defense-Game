@@ -1,0 +1,56 @@
+{
+  "name": "Mole Warrior",
+  "unlockAfterScene": 1,
+  "bulletX": 10,
+  "bulletY": 4,
+  "bulletSpeed": 10,
+  "bulletDamage": 200,
+  "damageType": "Physical",
+  "bulletCooldown": 80,
+  "targetRange": 120,
+  "price": 40,
+  "projectileSource": "resources\/towers\/montymole\/moleprojectile.png",
+  "buttonSource": "resources\/towers\/montymole\/molebutton.png",
+  "buildFrame": 30,
+  "buildAnimationLength": 28,
+  "shotWindup": 32,
+  "shotWinddown": 4,
+  "attackSound": "resources\/sounds\/FireBall.wav",
+  "attackSoundVolume": 0.7,
+  "traits": {
+    "Sureshot": true
+  },
+  "animations": [
+    {
+      "name": "shoot",
+      "source": "resources\/towers\/montymole\/moleshoot.png",
+      "frameSpan": [
+        0,
+        36
+      ],
+      "frameHeight": 68,
+      "frameWidth": 56
+    },
+	{
+      "name": "build",
+      "source": "resources\/towers\/montymole\/molebuild.png",
+      "frameSpan": [
+        37,
+        64
+      ],
+      "frameHeight": 68,
+      "frameWidth": 56
+    },
+    {
+      "name": "idle",
+      "source": "resources\/towers\/montymole\/moleidle.png",
+      "frameSpan": [
+        71,
+        92
+      ],
+      "frameHeight": 68,
+      "frameWidth": 56
+    }
+  ],
+  "description": "A loyal mole of the royal gardens. Moles will only target enemies that are very close, but will complete an attack against that enemy even if the enemy goes out of range while the mole prepares. Their projectiles deal massive damage ideal for tougher enemies."
+}

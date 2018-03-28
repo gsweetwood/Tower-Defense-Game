@@ -1,0 +1,61 @@
+{
+  "name": "Piranha Plant",
+  "unlockAfterScene": 1,
+  "bulletX": 0,
+  "bulletY": 0,
+  "bulletSpeed": 10,
+  "bulletDamage": 25,
+  "damageType": "Fire",
+  "bulletCooldown": 80,
+  "targetRange": 175,
+  "price": 100,
+  "projectileSource": "resources\/towers\/piranha\/piranhaprojectile.png",
+  "buttonSource": "resources\/towers\/piranha\/piranhabutton.png",
+  "buildFrame": 36,
+  "buildAnimationLength": 10,
+  "shotWindup": 14,
+  "shotWinddown": 12,
+  "attackSound": "resources\/sounds\/FireBall.wav",
+  "attackSoundVolume": 0.7,
+  "traits": {
+    "Explosive": 90,
+    "Igniting": [
+      40,
+      0.18,
+      480
+      ]
+  },
+  "animations": [
+    {
+      "name": "shoot",
+      "source": "resources\/towers\/piranha\/piranhashoot.png",
+      "frameSpan": [
+        0,
+        25
+      ],
+      "frameHeight": 86,
+      "frameWidth": 73
+    },
+	{
+      "name": "build",
+      "source": "resources\/towers\/piranha\/piranhabuild.png",
+      "frameSpan": [
+        26,
+        35
+      ],
+      "frameHeight": 114,
+      "frameWidth": 77
+    },
+    {
+      "name": "idle",
+      "source": "resources\/towers\/piranha\/piranhaidle.png",
+      "frameSpan": [
+        36,
+        44
+      ],
+      "frameHeight": 86,
+      "frameWidth": 73
+    }
+  ],
+  "description": "A fire-belching carnivorous plant native to the Mushroom Kingdom. Their attacks hit enemies in a wide radius and are likely to set enemies on fire. Burning enemies have an orange border around their healthbar and suffer damage over time."
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Toadstool Wizard",
+  "unlockAfterScene": 2,
+  "bulletX": 0,
+  "bulletY": -10,
+  "bulletSpeed": 10,
+  "bulletDamage": 50,
+  "damageType": "Magic",
+  "bulletCooldown": 200,
+  "targetRange": 138,
+  "price": 150,
+  "projectileSource": "resources\/towers\/magitoad\/magitoadprojectile.png",
+  "buttonSource": "resources\/towers\/magitoad\/magitoadbutton.png",
+  "buildFrame": 14,
+  "buildAnimationLength": 1,
+  "shotWindup": 14,
+  "shotWinddown": 0,
+  "attackSound": "resources\/sounds\/FireBall.wav",
+  "attackSoundVolume": 0.7,
+  "traits": {
+    "Explosive": 120,
+    "Disrupting": [
+      80,
+      300
+      ]
+  },
+  "animations": [
+    {
+      "name": "shoot",
+      "source": "resources\/towers\/magitoad\/magitoadshoot.png",
+      "frameSpan": [
+        0,
+        13
+      ],
+      "frameHeight": 48,
+      "frameWidth": 55
+    },
+	{
+      "name": "build",
+      "source": "resources\/towers\/magitoad\/magitoadbuild.png",
+      "frameSpan": [
+        14,
+        14
+      ],
+      "frameHeight": 45,
+      "frameWidth": 49
+    },
+    {
+      "name": "idle",
+      "source": "resources\/towers\/magitoad\/magitoadidle.png",
+      "frameSpan": [
+        15,
+        38
+      ],
+      "frameHeight": 47,
+      "frameWidth": 49
+    }
+  ],
+  "description": "Toadstools with an affinity for magic are rare but talented. They can inflict a disrupting curse in a wide radius, preventing enemies from activating their special abilties for a short time."
+}

@@ -1,0 +1,312 @@
+{
+  "name": "Level One",
+  "number": 1,
+  "startPosition": [
+    850,
+    221
+  ],
+  "startTravelAxis": "vx",
+  "startTravelDirection": -1,
+  "startCash": 200,
+  "waveEnemies": [4, 8, 12],
+  "turns": [
+    [
+      242,
+      1
+    ],
+    [
+      553,
+      1
+    ],
+    [
+      636,
+      -1
+    ],
+    [
+      480,
+      1
+    ]
+  ],
+  "noBuildAreas": [
+    [
+      0,
+      0,
+      800,
+      40
+    ],
+    [
+      0,
+      0,
+      80,
+      800
+    ],
+    [
+      160,
+      140,
+      640,
+      60
+    ],
+    [
+      160,
+      150,
+      80,
+      450
+    ],
+    [
+      250,
+      550,
+      465,
+      65
+    ],
+    [
+      620,
+      400,
+      65,
+      215
+    ],
+    [
+      620,
+      400,
+      180,
+      65
+    ]
+  ],
+  "backgroundSource": "resources\/levels\/one\/level1.png",
+  "buttonSource": "resources\/levels\/one\/level1button.png",
+  "buttonPosition": [184, 456],
+  "music": "resources\/sounds\/smb1.mp3",
+  "winSound": "resources\/sounds\/win1.mp3",
+  "loseSound": "resources\/sounds\/gameOver.mp3",
+  "waves": [
+    [
+      [
+        "Koopa Troopa",
+        "Koopa Troopa",
+        "Koopa Troopa"
+      ],
+      [
+        "Koopa Troopa",
+        "Koopa Troopa",
+        "Koopa Troopa"
+      ],
+      [
+        "Koopa Troopa",
+        "Koopa Troopa",
+        "Koopa Troopa"
+      ]
+    ],
+    [
+      [
+        "Goomba",
+        "Koopa Troopa",
+        "Goomba"
+      ],
+      [
+        "Goomba",
+        "Koopa Troopa",
+        "Goomba"
+      ]
+    ],
+    [
+      [
+        "Flyguy",
+        "Goomba",
+        "Flyguy"
+      ],
+      [
+        "Goomba",
+        "Flyguy",
+        "Goomba"
+      ],
+      [
+        "Flyguy",
+        "Goomba",
+        "Flyguy"
+      ],
+      [
+        "Goomba",
+        "Flyguy",
+        "Goomba"
+      ]
+    ],
+    [
+      [
+        "Koopa Troopa",
+        "Koopa Troopa",
+        "Koopa Troopa"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Goomba",
+        "Goomba",
+        "Goomba"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ]
+    ],
+    [
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ]
+    ],
+    [
+      [
+        "Koopa Troopa",
+        "Flyguy",
+        "Koopa Troopa"
+      ],
+      [
+        "Koopa Troopa",
+        "Flyguy",
+        "Koopa Troopa"
+      ],
+      [
+        "Koopa Troopa",
+        "Flyguy",
+        "Koopa Troopa"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ]
+    ],
+    [
+      [
+        "Koopa Troopa",
+        "Goomba",
+        "Koopa Troopa"
+      ],
+      [
+        "Flyguy",
+        "Goomba",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Goomba",
+        "Flyguy"
+      ],
+      [
+        "Koopa Troopa",
+        "Koopa Troopa",
+        "Koopa Troopa"
+      ]
+    ],
+    [
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ]
+    ],
+    [
+      [
+        "Goomba",
+        "Goomba",
+        "Goomba"
+      ],
+      [
+        "Goomba",
+        "Goomba",
+        "Goomba"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Koopa Troopa",
+        "Goomba",
+        "Koopa Troopa"
+      ]
+    ],
+    [
+      [
+        "Koopa Troopa",
+        "Goomba",
+        "Koopa Troopa"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Koopa Troopa",
+        "Goomba",
+        "Koopa Troopa"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Goomba",
+        "Flyguy",
+        "Goomba"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Goomba",
+        "Flyguy",
+        "Goomba"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ]
+    ]
+  ]
+}

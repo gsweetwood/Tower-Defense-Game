@@ -1,0 +1,54 @@
+{
+  "name": "Goomba",
+  "health": 160,
+  "armor": 0,
+  "fireRes": 0,
+  "magicRes": 0,
+  "reward": 5,
+  "speed": 1,
+  "spawnTime": 90,
+  "traits": { 
+  },
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/enemies\/goomba\/goombaleft.png",
+      "frameSpan": [
+        0,
+        7
+      ],
+      "frameWidth": 34,
+      "frameHeight": 39
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/enemies\/goomba\/goombaright.png",
+      "frameSpan": [
+        8,
+        15
+      ],
+      "frameWidth": 34,
+      "frameHeight": 39
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/enemies\/goomba\/goombadown.png",
+      "frameSpan": [
+        16,
+        23
+      ],
+      "frameWidth": 34,
+      "frameHeight": 38
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/enemies\/goomba\/goombaup.png",
+      "frameSpan": [
+        24,
+        31
+      ],
+      "frameWidth": 34,
+      "frameHeight": 39
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Arcane Goop",
+  "unlockAfterScene": 2,
+  "bulletX": 0,
+  "bulletY": -10,
+  "bulletSpeed": 10,
+  "bulletDamage": 0,
+  "damageType": "Magic",
+  "bulletCooldown": 180,
+  "targetRange": 175,
+  "price": 75,
+  "projectileSource": "resources\/towers\/elemental\/elementalprojectile.png",
+  "buttonSource": "resources\/towers\/elemental\/elementalbutton.png",
+  "buildFrame": 11,
+  "buildAnimationLength": 1,
+  "shotWindup": 12,
+  "shotWinddown": 10,
+  "attackSound": "resources\/sounds\/FireBall.wav",
+  "attackSoundVolume": 0.7,
+  "traits": {
+    "Armorbreaker": 7
+  },
+  "animations": [
+    {
+      "name": "shoot",
+      "source": "resources\/towers\/elemental\/elementalshoot.png",
+      "frameSpan": [
+        0,
+        21
+      ],
+      "frameHeight": 52,
+      "frameWidth": 34
+    },
+	{
+      "name": "build",
+      "source": "resources\/towers\/elemental\/elementalbuild.png",
+      "frameSpan": [
+        22,
+        22
+      ],
+      "frameHeight": 52,
+      "frameWidth": 34
+    },
+    {
+      "name": "idle",
+      "source": "resources\/towers\/elemental\/elementalidle.png",
+      "frameSpan": [
+        23,
+        34
+      ],
+      "frameHeight": 52,
+      "frameWidth": 34
+    }
+  ],
+  "description": "90% pure magic, 10% slime. The damage dealt by the ineffable magics it exudes scales with enemies' armor. Ineffective against enemies with little or no armor."
+}

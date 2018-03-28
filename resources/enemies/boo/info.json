@@ -1,0 +1,55 @@
+{
+  "name": "Boo",
+  "health": 100,
+  "armor": 0,
+  "fireRes": 80,
+  "magicRes": 80,
+  "reward": 20,
+  "speed": 1.2,
+  "spawnTime": 90,
+  "traits": {
+    "startStealth": 8 
+  },
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/enemies\/boo\/booleft.png",
+      "frameSpan": [
+        0,
+        23
+      ],
+      "frameWidth": 41,
+      "frameHeight": 33
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/enemies\/boo\/booright.png",
+      "frameSpan": [
+        24,
+        47
+      ],
+      "frameWidth": 41,
+      "frameHeight": 33
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/enemies\/boo\/boodown.png",
+      "frameSpan": [
+        48,
+        53
+      ],
+      "frameWidth": 49,
+      "frameHeight": 32
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/enemies\/boo\/booup.png",
+      "frameSpan": [
+        54,
+        59
+      ],
+      "frameWidth": 49,
+      "frameHeight": 32
+    }
+  ]
+}

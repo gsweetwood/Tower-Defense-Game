@@ -1,0 +1,54 @@
+{
+  "name": "Bob-omb",
+  "health": 100,
+  "armor": 10,
+  "fireRes": 0,
+  "magicRes": 90,
+  "reward": 40,
+  "speed": 2.5,
+  "spawnTime": 90,
+  "traits": { 
+  },
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/enemies\/bobomb\/bobombleft.png",
+      "frameSpan": [
+        0,
+        7
+      ],
+      "frameWidth": 39,
+      "frameHeight": 37
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/enemies\/bobomb\/bobombright.png",
+      "frameSpan": [
+        8,
+        15
+      ],
+      "frameWidth": 39,
+      "frameHeight": 37
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/enemies\/bobomb\/bobombdown.png",
+      "frameSpan": [
+        16,
+        23
+      ],
+      "frameWidth": 34,
+      "frameHeight": 37
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/enemies\/bobomb\/bobombup.png",
+      "frameSpan": [
+        24,
+        31
+      ],
+      "frameWidth": 34,
+      "frameHeight": 37
+    }
+  ]
+}

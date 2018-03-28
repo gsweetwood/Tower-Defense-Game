@@ -1,0 +1,15 @@
+{
+  "name": "levelThreeButton",
+  "animations": [
+    {
+      "name": "button",
+      "source": "resources\/interface\/buttons\/level3Button.png",
+      "frameSpan": [
+        0,
+        2
+      ],
+      "frameWidth": 221,
+      "frameHeight": 153
+    }
+	]
+}

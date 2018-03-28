@@ -1,0 +1,338 @@
+{
+  "name": "Level Three",
+  "number": 3,
+  "startPosition": [
+    850,
+    475
+  ],
+  "startTravelAxis": "vx",
+  "startTravelDirection": -1,
+  "startCash": 150,
+  "waveEnemies": [4, 8, 12],
+  "turns": [
+    [
+      710,
+      -1
+    ],
+    [
+      275,
+      -1
+    ],
+    [
+      500,
+      1
+    ],
+    [
+      590,
+      -1
+    ],
+    [
+      300,
+      1
+    ],
+    [
+      680,
+      -1
+    ]
+    
+  ],
+  "noBuildAreas": [
+    [
+      0,
+      0,
+      800,
+      85
+    ],
+    [
+      0,
+      0,
+      135,
+      730
+    ],
+    [
+      0,
+      690,
+      263,
+      40
+    ],
+    [
+      220,
+      590,
+      275,
+      70
+    ],
+    [
+      420,
+      190,
+      70,
+      476
+    ],
+    [
+      420,
+      190,
+      280,
+      70
+    ],
+    [
+      640,
+      260,
+      60,
+      195
+    ],
+    [
+      650,
+      390,
+      250,
+      60
+    ],
+    [
+      670,
+      680,
+      230,
+      220
+    ]
+  ],
+  "backgroundSource": "resources\/levels\/three\/level3.png",
+  "buttonSource": "resources\/levels\/three\/level3button.png",
+  "buttonPosition": [455, 512],
+  "music": "resources\/sounds\/lvl3Music.mp3",
+  "winSound": "resources\/sounds\/win3.mp3",
+  "loseSound": "resources\/sounds\/fail3.mp3",
+  "waves": [
+    [
+      [
+        "Goomba",
+        "Koopa Troopa",
+        "Goomba"
+      ],
+      [
+        "Goomba",
+        "Flyguy",
+        "Goomba"
+      ],
+      [
+        "Goomba",
+        "Koopa Troopa",
+        "Koopa Troopa"
+      ],
+      [
+        "Goomba",
+        "Koopa Troopa",
+        "Goomba"
+      ]
+    ],
+    [
+      [
+        "Boo",
+        "Koopa Troopa",
+        "Flyguy"
+      ],
+      [
+        "Goomba",
+        "Boo",
+        "Goomba"
+      ]
+    ],
+    [
+      [
+        "Boo",
+        "Koopa Troopa",
+        "Flyguy"
+      ],
+      [
+        "Hammer Bro",
+        "Goomba",
+        "Bob-omb"
+      ],
+      [
+        "Boo",
+        "Koopa Troopa",
+        "Flyguy"
+      ],
+      [
+        "Hammer Bro",
+        "Goomba",
+        "Bob-omb"
+      ]
+    ],
+    [
+      [
+        "Boo",
+        "Koopa Troopa",
+        "Flyguy"
+      ],
+      [
+        "Hammer Bro",
+        "Goomba",
+        "Bob-omb"
+      ],
+      [
+        "Boo",
+        "Koopa Troopa",
+        "Flyguy"
+      ],
+      [
+        "Hammer Bro",
+        "Goomba",
+        "Bob-omb"
+      ]
+    ],
+    [
+      [
+        "Boo",
+        "Koopa Troopa",
+        "Boo"
+      ],
+      [
+        "Hammer Bro",
+        "Goomba",
+        "Hammer Bro"
+      ],
+      [
+        "Boo",
+        "Koopa Troopa",
+        "Boo"
+      ],
+      [
+        "Hammer Bro",
+        "Goomba",
+        "Hammer Bro"
+      ]
+    ],
+    [
+      [
+        "Hammer Bro",
+        "Magikoopa",
+        "Hammer Bro"
+      ],
+      [
+        "Koopa Troopa",
+        "Hammer Bro",
+        "Koopa Troop"
+      ],
+      [
+        "Boo",
+        "Magikoopa",
+        "Hammer Bro"
+      ],
+      [
+        "Hammer Bro",
+        "Goomba",
+        "Hammer Bro"
+      ]
+    ],
+    [
+      [
+        "Bob-omb",
+        "Hammer Bro",
+        "Bob-omb"
+      ],
+      [
+        "Hammer Bro",
+        "Bob-omb",
+        "Hammer Bro"
+      ],
+      [
+        "Bob-omb",
+        "Hammer Bro",
+        "Bob-omb"
+      ],
+      [
+        "Hammer Bro",
+        "Bob-omb",
+        "Hammer Bro"
+      ]
+    ],
+    [
+      [
+        "Bob-omb",
+        "Bob-omb",
+        "Bob-omb"
+      ],
+      [
+        "Hammer Bro",
+        "Magikoopa",
+        "Hammer Bro"
+      ],
+      [
+        "Spiny",
+        "Spiny",
+        "Spiny"
+      ],
+      [
+        "Bob-omb",
+        "Magikoopa",
+        "Bob-omb"
+      ]
+    ],
+    [
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ],
+      [
+        "Flyguy",
+        "Flyguy",
+        "Flyguy"
+      ]
+    ],
+    [
+      [
+        "Spiny",
+        "King Bowser",
+        "Spiny"
+      ],
+      [
+        "Hammer Bro",
+        "Boo",
+        "Hammer Bro"
+      ],
+      [
+        "Spiny",
+        "Spiny",
+        "Spiny"
+      ],
+      [
+        "Bob-omb",
+        "Spiny",
+        "Bob-omb"
+      ],
+      [
+        "Spiny",
+        "Magikoopa",
+        "Spiny"
+      ],
+      [
+        "Spiny",
+        "Bob-omb",
+        "Spiny"
+      ],
+      [
+        "Spiny",
+        "Magikoopa",
+        "Spiny"
+      ],
+      [
+        "Flyguy",
+        "Boo",
+        "Flyguy"
+      ],
+      [
+        "Bob-omb",
+        "Koopa Troopa",
+        "Bob-omb"
+      ]
+    ]
+  ]
+}

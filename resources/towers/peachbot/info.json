@@ -1,0 +1,57 @@
+{
+  "name": "P34CH-3000",
+  "unlockAfterScene": 3,
+  "bulletX": 0,
+  "bulletY": 10,
+  "bulletSpeed": 7,
+  "bulletDamage": 20,
+  "damageType": "Fire",
+  "bulletCooldown": 80,
+  "targetRange": 175,
+  "price": 250,
+  "projectileSource": "resources\/towers\/peachbot\/peachbotprojectile.png",
+  "buttonSource": "resources\/towers\/peachbot\/peachbotbutton.png",
+  "buildFrame": 4,
+  "buildAnimationLength": 1,
+  "shotWindup": 3,
+  "shotWinddown": 1,
+  "attackSound": "resources\/sounds\/FireBall.wav",
+  "attackSoundVolume": 0.7,
+  "traits": {
+    "Chaotic": 3,
+    "piercing": 3
+  },
+  "animations": [
+    {
+      "name": "shoot",
+      "source": "resources\/towers\/peachbot\/peachbotshoot.png",
+      "frameSpan": [
+        0,
+        3
+      ],
+      "frameHeight": 61,
+      "frameWidth": 42
+    },
+	{
+      "name": "build",
+      "source": "resources\/towers\/peachbot\/peachbotbuild.png",
+      "frameSpan": [
+        4,
+        4
+      ],
+      "frameHeight": 61,
+      "frameWidth": 38
+    },
+    {
+      "name": "idle",
+      "source": "resources\/towers\/peachbot\/peachbotidle.png",
+      "frameSpan": [
+        5,
+        40
+      ],
+      "frameHeight": 63,
+      "frameWidth": 38
+    }
+  ],
+  "description": "Princess Peach's latest design is deadly, but unfinished. P34CH-3000 will fire piercing projectiles of varying size in random directions when enemies are near. The larger the projectile, the more damage it will deal if it hits an enemy!"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "King Bowser",
+  "health": 1000,
+  "armor": 25,
+  "fireRes": 90,
+  "magicRes": 50,
+  "reward": 0,
+  "speed": 0.3,
+  "spawnTime": 90,
+  "traits": {
+    "Koopa": 50,
+    "Boss": true
+  },
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/enemies\/bowser\/bowserleft.png",
+      "frameSpan": [
+        0,
+        11
+      ],
+      "frameWidth": 115,
+      "frameHeight": 115
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/enemies\/bowser\/bowserright.png",
+      "frameSpan": [
+        12,
+        23
+      ],
+      "frameWidth": 115,
+      "frameHeight": 115
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/enemies\/bowser\/bowserdown.png",
+      "frameSpan": [
+        24,
+        35
+      ],
+      "frameWidth": 105,
+      "frameHeight": 108
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/enemies\/bowser\/bowserup.png",
+      "frameSpan": [
+        36,
+        47
+      ],
+      "frameWidth": 107,
+      "frameHeight": 118
+    }
+  ]
+}

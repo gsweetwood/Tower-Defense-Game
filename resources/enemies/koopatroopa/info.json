@@ -1,0 +1,55 @@
+{
+  "name": "Koopa Troopa",
+  "health": 130,
+  "armor": 5,
+  "fireRes": 5,
+  "magicRes": 5,
+  "reward": 10,
+  "speed": 1,
+  "spawnTime": 90,
+  "traits": {
+    "Koopa": 10
+  },
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/enemies\/koopatroopa\/koopaleft.png",
+      "frameSpan": [
+        0,
+        9
+      ],
+      "frameWidth": 38,
+      "frameHeight": 47
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/enemies\/koopatroopa\/kooparight.png",
+      "frameSpan": [
+        10,
+        19
+      ],
+      "frameWidth": 38,
+      "frameHeight": 47
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/enemies\/koopatroopa\/koopadown.png",
+      "frameSpan": [
+        20,
+        29
+      ],
+      "frameWidth": 34,
+      "frameHeight": 47
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/enemies\/koopatroopa\/koopaup.png",
+      "frameSpan": [
+        30,
+        39
+      ],
+      "frameWidth": 34,
+      "frameHeight": 52
+    }
+  ]
+}

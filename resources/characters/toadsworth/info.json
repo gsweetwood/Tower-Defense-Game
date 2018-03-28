@@ -1,0 +1,44 @@
+{
+  "name": "Toadsworth",
+  "lines": [
+    "Hello! I'm Toadsworth, the royal advisor to the princess. I can share information about upcoming enemies and challenges with you. Just click me if you want to talk! I recommend checking in often if you'd like to be fully informed.",
+    "The enemy has fallen back, but it is a false retreat! Our scouts have discovered that another enemy force makes their way towards us through the caverns below. They've deployed magical troops, but so can we!",
+    "Bowser's sorcerers wield dark and sickly magic to summon ghosts and mend the flesh. Luckily, our Toadstool Wizards are trained in antimagical combat. We'll soon disrupt their foul designs.",
+    "Look sharp! I've just recieved word that the King of Koopas himself has landed on the banks of the east river. This must be the enemy's final offensive. We've got to throw everything we can to stop this here and now.",
+    "Our most powerful robot defenders are deploying now. Be cautious, though- the Koopa King's personal guard is made up of his most elite minions.",
+    "Splendid! Well done indeed I say! The Mushroom Kingdom will be telling tales of this heroic victory for centuries to come. Bowser will think twice before trying that again!"
+    ],
+    "tips": [
+      "You can preview a defender's placement even if you don't have enough coins to place that defender yet. To cancel building placement mode, just click on any of the defender buttons.",
+      "All Koopa type enemies will occasionally deflect a projectile, remaining untouched while the projectile richochets in the other direction. Normal Koopa Troopa enemies don't do this very often though.",
+      "Flyguys start out slow, but as soon as they take damage they'll start moving much more quickly! Use their low health to your advantage.",
+      "Different defenders will use different damage types: Fire, Physical, or Magical. Enemies might be particularly resistant to a damage type.",
+      "The fire debuff caused by Piranha Plants can deal great damage over time, but setting an already-burning enemy aflame will have no effect.",
+      "Magikoopa will occasionally cast a healing spell that affects themselves and all nearby enemies significantly. Taking them out is a top priority!",
+      "The King's ghosts are invincible when they enter the map, but they can't keep it up for long. Expect them to bypass defenses set up at the beginning of the path.",
+      "Some enemies possess armor that allows them to shrug off a portion of Physical or Fire damage. Magic damage and Fire damage due to burning pierce through armor, however.",
+      "Spinies are heavily armored and resiliant. Any projectile that hits them will be destroyed afterwards, preventing explosions or piercing effects from occuring.",
+      "Enemies flash red briefly after taking damage. During these recovery frames, the enemy is invincible.",
+      "Hammer Bros are some of the toughest Koopas found in the Mushroom Kingdom. They have high armor, and a significant chance of deflecting any projectile that hits them.",
+      "Don't underestimate the King's Bob-ombs due to their size. They move very quickly and are highly resistant to all forms of damage except Fire.",
+      "King Bowser is a mighty foe. He has incredible armor, high resistances, and a very high chance to deflect projectiles. If he reaches the end of the path, the level is lost!"
+      ],
+  "speechBubbleOffsets": [
+    0,
+    0,
+    0,
+    0
+    ],
+  "animations": [
+    {
+      "name": "idle",
+      "source": "resources\/characters\/toadsworth\/toadsworthidle.png",
+      "frameSpan": [
+        0,
+        23
+      ],
+      "frameWidth": 34,
+      "frameHeight": 44
+    }
+  ]
+}

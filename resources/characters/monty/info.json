@@ -1,0 +1,37 @@
+{
+  "name": "Monty",
+  "lines": [
+    "My, what's this ruckus-",
+    "Oh! What can I do ya for marm?",
+    "Right away marm!",
+    "We'll assemble at the gate."
+    ],
+  "speechBubbleOffsets": [
+    0,
+    0,
+    130,
+    38
+    ],
+  "animations": [
+    {
+      "name": "digupleft",
+      "source": "resources\/characters\/monty\/montydigupleft.png",
+      "frameSpan": [
+        3,
+        27
+      ],
+      "frameWidth": 56,
+      "frameHeight": 47
+    },
+    {
+      "name": "departupleft",
+      "source": "resources\/characters\/monty\/montydepartupleft.png",
+      "frameSpan": [
+        33,
+        40
+      ],
+      "frameWidth": 56,
+      "frameHeight": 43
+    }
+  ]
+}

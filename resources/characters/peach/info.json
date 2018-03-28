@@ -1,0 +1,164 @@
+{
+  "name": "Princess Peach",
+  "lines": [
+    "Ah, what a lovely morning.",
+    "The sunrise is spectacular!",
+    "I have a feeling it will be a good day.",
+    "Hmm? Toad, is that you?",
+    "Whatever is the matter?",
+    "That is indeed grave news.",
+    "But now is not the time for despair.",
+    "As a princess, naturally I'm a...",
+    "\u272E \u272E MASTER GARDENER \u272E \u272E",
+    "\u272E \u272E MASTER GARDENER \u272E \u272E",
+    "Ahem.",
+    "Captain Monty!",
+    "...",
+    "CAPTAIN MONTY!!!",
+    "The kingdom is under attack.",
+    "Quickly, rally the moles!",
+    "Gather the piranha plants,",
+    "and rouse the royal trees!",
+    "Not yet, Toad.",
+    "But Bowser will regret the day",
+    "he tried to take Mushroom Castle!"
+    ],
+  "speechBubbleOffsets": [
+    20,
+    38,
+    127,
+    38
+    ],
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/characters\/peach\/peachleft.png",
+      "frameSpan": [
+        0,
+        15
+      ],
+      "frameWidth": 66,
+      "frameHeight": 82
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/characters\/peach\/peachright.png",
+      "frameSpan": [
+        16,
+        31
+      ],
+      "frameWidth": 66,
+      "frameHeight": 82
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/characters\/peach\/peachdown.png",
+      "frameSpan": [
+        32,
+        47
+      ],
+      "frameWidth": 67,
+      "frameHeight": 82
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/characters\/peach\/peachup.png",
+      "frameSpan": [
+        48,
+        63
+      ],
+      "frameWidth": 67,
+      "frameHeight": 82
+    },
+    {
+      "name": "talkRight",
+      "source": "resources\/characters\/peach\/peachtalkright.png",
+      "frameSpan": [
+        64,
+        79
+      ],
+      "frameWidth": 66,
+      "frameHeight": 82
+    },
+    {
+      "name": "talkRight2",
+      "source": "resources\/characters\/peach\/peachtalkright2.png",
+      "frameSpan": [
+        80,
+        95
+      ],
+      "frameWidth": 66,
+      "frameHeight": 82
+    },
+    {
+      "name": "talkRight3",
+      "source": "resources\/characters\/peach\/peachtalkright3.png",
+      "frameSpan": [
+        96,
+        111
+      ],
+      "frameWidth": 68,
+      "frameHeight": 88
+    },
+    {
+      "name": "talkRight4",
+      "source": "resources\/characters\/peach\/peachtalkright4.png",
+      "frameSpan": [
+        112,
+        145
+      ],
+      "frameWidth": 66,
+      "frameHeight": 82
+    },
+    {
+      "name": "curtsy",
+      "source": "resources\/characters\/peach\/peachcurtsy.png",
+      "frameSpan": [
+        156,
+        183
+      ],
+      "frameWidth": 66,
+      "frameHeight": 84
+    },
+    {
+      "name": "idleright",
+      "source": "resources\/characters\/peach\/peachidleright.png",
+      "frameSpan": [
+        200,
+        218
+      ],
+      "frameWidth": 66,
+      "frameHeight": 82
+    },
+    {
+      "name": "sitright",
+      "source": "resources\/characters\/peach\/peachsitright.png",
+      "frameSpan": [
+        219,
+        219
+      ],
+      "frameWidth": 66,
+      "frameHeight": 68
+    },
+    {
+      "name": "idleleftdown",
+      "source": "resources\/characters\/peach\/peachidleleftdown.png",
+      "frameSpan": [
+        220,
+        238
+      ],
+      "frameWidth": 66,
+      "frameHeight": 82
+    },
+    {
+      "name": "talk2leftdown",
+      "source": "resources\/characters\/peach\/peachtalk2leftdown.png",
+      "frameSpan": [
+        239,
+        254
+      ],
+      "frameWidth": 66,
+      "frameHeight": 82
+    }
+  ]
+}

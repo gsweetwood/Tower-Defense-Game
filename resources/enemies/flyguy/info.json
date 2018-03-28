@@ -1,0 +1,55 @@
+{
+  "name": "Flyguy",
+  "health": 60,
+  "armor": 0,
+  "fireRes": 30,
+  "magicRes": 30,
+  "reward": 15,
+  "speed": 1,
+  "spawnTime": 60,
+  "traits": {
+    "enrageSpeed": 2
+  },
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/enemies\/flyguy\/flyguyleft.png",
+      "frameSpan": [
+        0,
+        95
+      ],
+      "frameWidth": 39,
+      "frameHeight": 51
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/enemies\/flyguy\/flyguyright.png",
+      "frameSpan": [
+        100,
+        195
+      ],
+      "frameWidth": 39,
+      "frameHeight": 51
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/enemies\/flyguy\/flyguydown.png",
+      "frameSpan": [
+        200,
+        295
+      ],
+      "frameWidth": 42,
+      "frameHeight": 53
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/enemies\/flyguy\/flyguyup.png",
+      "frameSpan": [
+        315,
+        410
+      ],
+      "frameWidth": 44,
+      "frameHeight": 52
+    }
+  ]
+}

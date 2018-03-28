@@ -1,0 +1,114 @@
+{
+  "name": "Toad",
+  "lines": [
+    "AAAAAAHHHHHH",
+    "Princess! Princess!",
+    "AAAAAHHHHHHH",
+    "The kingdom is under attack!",
+    "The koopa army is nearly upon us!",
+    "Mario isn't due back for weeks,",
+    "we can't face Bowser without him!",
+    "Surely this is the end for us!",
+    "...how can gardening help?",
+    "Yippee!",
+    "Surely you have saved us, princess!"
+    ],
+  "speechBubbleOffsets": [
+    34,
+    38,
+    147,
+    38
+    ],
+  "animations": [
+    {
+      "name": "walkLeft",
+      "source": "resources\/characters\/toad\/toadleft.png",
+      "frameSpan": [
+        0,
+        7
+      ],
+      "frameWidth": 34,
+      "frameHeight": 45
+    },
+    {
+      "name": "walkRight",
+      "source": "resources\/characters\/toad\/toadright.png",
+      "frameSpan": [
+        8,
+        15
+      ],
+      "frameWidth": 34,
+      "frameHeight": 45
+    },
+	{
+      "name": "walkDown",
+      "source": "resources\/characters\/toad\/toaddown.png",
+      "frameSpan": [
+        16,
+        23
+      ],
+      "frameWidth": 34,
+      "frameHeight": 46
+    },
+	{
+      "name": "walkUp",
+      "source": "resources\/characters\/toad\/toadup.png",
+      "frameSpan": [
+        24,
+        31
+      ],
+      "frameWidth": 34,
+      "frameHeight": 48
+    },
+    {
+      "name": "flapDown",
+      "source": "resources\/characters\/toad\/toadflapdown.png",
+      "frameSpan": [
+        32,
+        59
+      ],
+      "frameWidth": 34,
+      "frameHeight": 42
+    },
+    {
+      "name": "fearfulWalkDown",
+      "source": "resources\/characters\/toad\/toadfearfuldown.png",
+      "frameSpan": [
+        60,
+        99
+      ],
+      "frameWidth": 35,
+      "frameHeight": 48
+    },
+    {
+      "name": "fearfulWalkRight",
+      "source": "resources\/characters\/toad\/toadfearfulright.png",
+      "frameSpan": [
+        116,
+        155
+      ],
+      "frameWidth": 34,
+      "frameHeight": 48
+    },
+    {
+      "name": "flapLeft",
+      "source": "resources\/characters\/toad\/toadflapleft.png",
+      "frameSpan": [
+        175,
+        202
+      ],
+      "frameWidth": 34,
+      "frameHeight": 41
+    },
+    {
+      "name": "fronttalkhappy",
+      "source": "resources\/characters\/toad\/toadfronttalkhappy.png",
+      "frameSpan": [
+        202,
+        226
+      ],
+      "frameWidth": 35,
+      "frameHeight": 46
+    }
+  ]
+}

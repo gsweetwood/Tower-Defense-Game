@@ -1,0 +1,56 @@
+{
+  "name": "Royal Tree",
+  "unlockAfterScene": 1,
+  "bulletX": 10,
+  "bulletY": 4,
+  "bulletSpeed": 10,
+  "bulletDamage": 60,
+  "damageType": "Physical",
+  "bulletCooldown": 100,
+  "targetRange": 150,
+  "price": 150,
+  "projectileSource": "resources\/towers\/trunkle\/trunkleprojectile.png",
+  "buttonSource": "resources\/towers\/trunkle\/trunklebutton.png",
+  "buildFrame": 0,
+  "buildAnimationLength": 22,
+  "shotWindup": 6,
+  "shotWinddown": 6,
+  "attackSound": "resources\/sounds\/FireBall.wav",
+  "attackSoundVolume": 0.7,
+  "traits": { 
+    "piercing": 7
+  },
+  "animations": [
+    {
+      "name": "shoot",
+      "source": "resources\/towers\/trunkle\/trunkleshoot.png",
+      "frameSpan": [
+        0,
+        11
+      ],
+      "frameHeight": 98,
+      "frameWidth": 101
+    },
+	{
+      "name": "build",
+      "source": "resources\/towers\/trunkle\/trunklebuild.png",
+      "frameSpan": [
+        12,
+        33
+      ],
+      "frameHeight": 98,
+      "frameWidth": 112
+    },
+    {
+      "name": "idle",
+      "source": "resources\/towers\/trunkle\/trunkleidle.png",
+      "frameSpan": [
+        36,
+        41
+      ],
+      "frameHeight": 96,
+      "frameWidth": 118
+    }
+  ],
+  "description": "Ancient trees sown by some long-forgotten monarch of the Mushroom Kingdom. Their attacks deal heavy physical damage and can pierce through several enemies."
+}

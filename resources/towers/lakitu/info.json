@@ -1,0 +1,49 @@
+{
+  "name": "Garden Lakitu",
+  "unlockAfterScene": 1,
+  "bulletX": 10,
+  "bulletY": 4,
+  "bulletSpeed": 10,
+  "bulletDamage": 30,
+  "damageType": "Physical",
+  "bulletCooldown": 100,
+  "targetRange": 115,
+  "price": 40,
+  "projectileSource": "resources\/towers\/lakitu\/lakituprojectile.png",
+  "buttonSource": "resources\/towers\/lakitu\/lakitubutton.png",
+  "buildFrame": 11,
+  "buildAnimationLength": 0,
+  "shotWindup": 8,
+  "shotWinddown": 9,
+  "attackSound": "resources\/sounds\/FireBall.wav",
+  "attackSoundVolume": 0.7,
+  "traits": {
+    "slowdown": [
+      50,
+      5
+      ]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "source": "resources\/towers\/lakitu\/lakituidle.png",
+      "frameSpan": [
+        0,
+        3
+      ],
+      "frameHeight": 82,
+      "frameWidth": 55
+    },
+	  {
+      "name": "shoot",
+      "source": "resources\/towers\/lakitu\/lakitushoot.png",
+      "frameSpan": [
+        4,
+        20
+      ],
+      "frameHeight": 69,
+      "frameWidth": 52
+    }
+  ],
+  "description": "A faithful caretaker of the royal gardens. Enemies struck by a Lakitu's spiked missile are briefly slowed. The faster the enemy, the greater the effect."
+}

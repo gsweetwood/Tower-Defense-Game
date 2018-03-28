@@ -1,0 +1,15 @@
+{
+  "name": "levelTwoButton",
+  "animations": [
+    {
+      "name": "button",
+      "source": "resources\/interface\/buttons\/level2Button.png",
+      "frameSpan": [
+        0,
+        2
+      ],
+      "frameWidth": 221,
+      "frameHeight": 153
+    }
+	]
+}
